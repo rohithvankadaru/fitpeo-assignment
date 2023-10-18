@@ -103,6 +103,13 @@
     margin-bottom: 50px;
 }
 
+.dashboard-profile .profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .data-box-container {
     width: 70vw;
     margin-bottom: 25px;

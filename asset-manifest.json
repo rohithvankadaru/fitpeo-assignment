@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fitpeo-assignment/static/css/main.cb6325e3.css",
-    "main.js": "/fitpeo-assignment/static/js/main.a5689430.js",
+    "main.js": "/fitpeo-assignment/static/js/main.e26c7ed3.js",
     "static/media/hand-wave-icon-for-web-or-mobile-app-vector-26970293-removebg-preview.png": "/fitpeo-assignment/static/media/hand-wave-icon-for-web-or-mobile-app-vector-26970293-removebg-preview.dfb3835eb96420eb83a5.png",
     "index.html": "/fitpeo-assignment/index.html",
     "main.cb6325e3.css.map": "/fitpeo-assignment/static/css/main.cb6325e3.css.map",
-    "main.a5689430.js.map": "/fitpeo-assignment/static/js/main.a5689430.js.map"
+    "main.e26c7ed3.js.map": "/fitpeo-assignment/static/js/main.e26c7ed3.js.map"
   },
   "entrypoints": [
     "static/css/main.cb6325e3.css",
-    "static/js/main.a5689430.js"
+    "static/js/main.e26c7ed3.js"
   ]
 }

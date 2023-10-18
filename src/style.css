@@ -3,8 +3,30 @@
     margin: 0;
 }
 
+#container {
+    background-color: whitesmoke;
+}
+
+.main-section{
+    max-width: 70vw;
+}
+
+.middle-section {
+    max-width: 70vw;
+    margin-inline: 20px;
+    margin-bottom: 10px;
+}
+.middle-section .pie-chart{
+    width: 240px;
+    margin-inline: 20px;
+    margin-bottom: 10px;
+    padding-inline: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
 .welcome-name {
-    margin: 15px;
+    margin-block: 10px 15px;
     margin-right: 25px;
     margin-left: 40px;
 }
@@ -32,8 +54,8 @@
 }
 
 .chart-container {
-    width: 580px;
-    height: 250px;
+    width: 600px;
+    height: 260px;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
@@ -81,12 +103,8 @@
     margin-bottom: 50px;
 }
 
-#container {
-    background-color: whitesmoke;
-}
-
 .data-box-container {
-    width: 80vw;
+    width: 70vw;
     margin-bottom: 25px;
 }
 
@@ -107,11 +125,7 @@
 .data-content {
     height: 150px;
     width: 100px;
-}
-
-.pie-chart {
-    width: 200px;
-    height: 300px;
+    align-items: baseline;
 }
 
 .products {

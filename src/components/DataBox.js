@@ -1,6 +1,6 @@
 import React from "react";
 
-export const DataBox = ({ heading, money, data, imgTag, bgColor, sensecsColor }) => {
+export const DataBox = ({ heading, money, data, imgTag, bgColor, sensecsColor, arrow }) => {
 
     return (
         <div className="data-box flex align-center">
@@ -10,9 +10,11 @@ export const DataBox = ({ heading, money, data, imgTag, bgColor, sensecsColor })
             <div className='data-content flex flex-column justify-center'>
                 <p style={{ color: 'darkgray', fontSize: '14px' }}>{heading}</p>
                 <h2>{money}</h2>
-                <div className="flex" style={{fontSize: '12.5px', fontWeight: 'bold'}}>
-                    <p style={{color: sensecsColor || 'green'}}>{data}</p>
-                    <p style={{color: 'darkgray', marginLeft: '5px'}}>this month</p>
+                <div className="flex" style={{ fontSize: '12.5px', fontWeight: 'bold' }}>
+                    <p style={{ color: sensecsColor || 'green' }}>
+                        {arrow} {data}
+                    </p>
+                    <p style={{ color: 'darkgray', marginLeft: '5px' }}>this month</p>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
     background-color: whitesmoke;
 }
 
-.main-section{
+.main-section {
     max-width: 70vw;
 }
 
@@ -16,7 +16,8 @@
     margin-inline: 20px;
     margin-bottom: 10px;
 }
-.middle-section .pie-chart{
+
+.middle-section .pie-chart {
     width: 240px;
     margin-inline: 20px;
     margin-bottom: 10px;
@@ -44,7 +45,7 @@
 }
 
 .search-logo {
-    border-radius: '5px 0 0 5px';
+    border-radius: 5px 0 0 5px;
     padding: 8px 0 8px 5px;
 }
 
@@ -139,15 +140,26 @@
     background-color: white;
 }
 
-.products .inputs-container>* {
+.products .inputs-container .drop-down,
+.product-search-input {
     background-color: rgb(247, 237, 237);
     color: rgb(117, 108, 108);
     width: 130px;
     height: 30px;
-    margin-inline: 10px;
-    padding-inline:10px;
+    margin-right: 20px;
+    padding-inline: 10px;
     border: none;
     outline: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.products .inputs-container .product-search-input {
+    border-radius: 0 5px 5px 0;
+}
+
+.product-search-logo {
+    border-radius: 5px 0 0 5px;
+    padding: 8px 0px 6px 5px;
 }
 
 .product-list-item {

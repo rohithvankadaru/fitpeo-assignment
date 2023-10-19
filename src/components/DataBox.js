@@ -14,7 +14,7 @@ export const DataBox = ({ heading, money, data, imgTag, bgColor, sensecsColor, a
                     <p style={{ color: sensecsColor || 'green' }}>
                         {arrow} {data}
                     </p>
-                    <p style={{ color: 'darkgray', marginLeft: '5px' }}>this month</p>
+                    <p style={{ color: 'darkgray', marginLeft: '5px' }} className="thisMonth">this month</p>
                 </div>
             </div>
         </div>

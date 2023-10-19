@@ -173,3 +173,79 @@
     height: 50px;
     border-radius: 5px;
 }
+
+
+
+/**********       mobile responsive        *****************/
+
+@media screen and (max-height: 1048px) and (max-width: 500px) {
+    .dashboard {
+        height: 50vh;
+        width: 12vw;
+    }
+
+    .dashboard-option {
+        font-size: 10px;
+    }
+
+    .dashboard-option svg {
+        display: none;
+    }
+
+    .dashboard h3 {
+        font-size: 10px;
+    }
+
+    .dashboard-profile svg {
+        display: none;
+    }
+
+    .dashboard-profile {
+        width: 100%;
+    }
+
+    .dashboard-profile p {
+        font-size: 12px;
+    }
+
+    .dashboard-profile .profile-img {
+        display: none;
+    }
+
+    .data-box {
+        width: 12%;
+        height: 50px;
+        padding-inline: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .data-box>.logo-container {
+        display: none;
+    }
+    .data-box>.logo-container svg{
+        display: none;
+    }
+    
+    .data-content {
+        height: 150px;
+        width: 100px;
+        align-items: baseline;
+    }
+    .data-content>h2 {
+        font-size: 12px;
+    }
+    .data-content>p {
+        font-size: 10px !important;
+    }
+    .data-content>div {
+        font-size: 8px !important;
+    }
+    .data-content>div svg {
+        display: none;
+    }
+    .data-content>div .thisMonth {
+        display: none;
+    }
+
+}
